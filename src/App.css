@@ -1,0 +1,103 @@
+*{
+  margin:  0;
+  padding: 0;
+}
+
+.background{
+  background-image: url("./image/Scene.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: top right;
+  position: absolute;
+  right: 0;
+  top: 0;
+  height: 100%;
+  width: 70%;
+  font-family: 'Rubik', sans-serif;
+}
+
+.main {
+  position: absolute;
+  right: 0;
+  width: 80%;
+  height: 65%;
+  margin-top: 7.5%;
+  margin-right: 2%;
+  display: flex;
+  justify-content: space-around;
+}
+
+.list {
+  background-color: #FFFFFF;
+  width: 50%;
+  border-radius: 10px;
+  height: 100%;
+  align-self: flex-end;
+  overflow-y: scroll;
+}
+
+.row {
+  display: flex;
+  width: 95%;
+  justify-content: space-between;
+  margin-top: 4%;
+  margin-left: 2%;
+}
+
+.row > p {
+  width: 30%;
+  display: block;
+  line-height: 200%;
+}
+
+.row > p:first-child {
+  width: 8%;
+}
+
+.fab{
+  width: 25%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.form{
+  display: flex;
+  flex-direction: column;
+  width: 30%;
+  height: 40%;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.form > input {
+  width: 98%;
+  height: 17%;
+  border: 2px solid #EE4D47;
+  border-radius: 5px;
+  font-family: 'Rubik', sans-serif;
+  padding-left: 2%;
+  font-weight: 700;
+}
+
+.form > button {
+  background: #EE4D47;
+  border: none;
+  border-radius: 5px;
+  height: 35px;
+  width: 37%;
+  color: #FFFFFF;
+  font-family: 'Rubik', sans-serif;
+  font-weight: 700;
+}
+
+.mobel{
+  position: absolute;
+  background-image: url("./image/mobel.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: bottom left;
+  left: 0;
+  bottom: 0;
+  height: 38%;
+  width: 100%;
+}
